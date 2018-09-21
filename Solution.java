@@ -57,3 +57,17 @@ static String highestValuePalindrome(String s, int n, int k) {
         s = String.valueOf(string);
         return isPalindrome(s) ? s : "-1";
     }
+
+static boolean isPalindrome(String s){
+        int i = 0;
+        int j = s.length()-1;
+
+        while(j > i){
+            if (s.charAt(i) == s.charAt(j)){
+                i++; j--;
+            } else {
+                return false;
+            }
+        }
+        return true;
+    }
