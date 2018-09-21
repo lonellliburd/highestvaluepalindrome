@@ -68,3 +68,21 @@ Sample Output 2
 ```
 -1
 ```
+
+Test Cases:
+```
+        highestValuePalindrome("3943", 4, 1); //3993
+        highestValuePalindrome("092282", 6, 3); //992299
+        highestValuePalindrome("0011", 4, 1); //-1
+        highestValuePalindrome("10011", 5, 1); //11011
+        highestValuePalindrome("10011", 5, 3); //91019
+        highestValuePalindrome("1111911", 7, 4); //9199919
+        highestValuePalindrome("329", 3, 2); //999
+        highestValuePalindrome("932239", 6, 2); //992299
+        highestValuePalindrome("11119111", 8, 4); //91199119
+        highestValuePalindrome("11117111", 8, 3); //91177119
+        highestValuePalindrome("11117111", 8, 3); //91177119
+        highestValuePalindrome("9711319", 7, 4); //9991999
+        highestValuePalindrome("1111111", 7, 4); //9911199
+        highestValuePalindrome("128392759430124", 15, 8); //929394959493929
+```
