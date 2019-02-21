@@ -20,9 +20,9 @@ k: an integer that represents the maximum number of changes allowed
 
 Input Format
 
-The first line contains two space-separated integers,  and , the number of digits in the number and the maximum number of changes allowed. 
+The first line contains two space-separated integers, n and k, the number of digits in the number and the maximum number of changes allowed. 
 
-The second line contains an -digit string of numbers.
+The second line contains an n-digit string of numbers.
 
 Constraints
 
