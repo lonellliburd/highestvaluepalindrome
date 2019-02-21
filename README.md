@@ -13,18 +13,24 @@ Complete the highestValuePalindrome function in the editor below. It should retu
 highestValuePalindrome has the following parameter(s):
 
 s: a string representation of an integer
+
 n: an integer that represents the length of the integer string
+
 k: an integer that represents the maximum number of changes allowed
+
 Input Format
 
 The first line contains two space-separated integers,  and , the number of digits in the number and the maximum number of changes allowed. 
+
 The second line contains an -digit string of numbers.
 
 Constraints
-0 <= n <= 10^5
-0 <= k <= 10^5
 
-Each character  in the number is an integer where .
+0 ≤ n ≤ 10^5
+
+0 ≤ k ≤ 10^5
+
+Each character i in the number is an integer where 0 ≤ i ≤ 9
 
 Output Format
 
